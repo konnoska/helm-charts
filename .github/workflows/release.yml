@@ -26,7 +26,7 @@ jobs:
 
 
       - name: Add Helm Repos
-        runs: "helm repo add bitnami https://charts.bitnami.com/bitnami"
+        run: "helm repo add bitnami https://charts.bitnami.com/bitnami"
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.0
