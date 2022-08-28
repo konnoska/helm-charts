@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  etherpad:
+  - apiVersion: v2
+    appVersion: "1.8"
+    created: "2022-08-28T20:48:22.853201981Z"
+    dependencies:
+    - alias: db
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.8.1
+    description: A Helm chart for Kubernetes
+    digest: f201d632476384a67e80fcb19374017e67f85de2a2d3aefe91205b784d302144
+    name: etherpad
+    type: application
+    urls:
+    - https://github.com/konnoska/helm-charts/releases/download/etherpad-0.1.0/etherpad-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-28T20:48:22.853214481Z"
