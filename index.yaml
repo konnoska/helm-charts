@@ -31,4 +31,15 @@ entries:
     urls:
     - https://github.com/konnoska/helm-charts/releases/download/etherpad-0.1.0/etherpad-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-28T20:51:46.34065532Z"
+  fake-service:
+  - apiVersion: v2
+    appVersion: v0.24.2
+    created: "2022-10-13T19:27:19.65647436Z"
+    description: A Helm chart for Kubernetes
+    digest: 182f1c395429f49d45f9a944e1e1c1b1af8b315495d2badea276557a55e83445
+    name: fake-service
+    type: application
+    urls:
+    - https://github.com/konnoska/helm-charts/releases/download/fake-service-0.1.0/fake-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-13T19:27:19.65648396Z"
